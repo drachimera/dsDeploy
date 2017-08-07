@@ -29,11 +29,11 @@ def nerve_system(glasgow = None):
     
         if glasgow < 6:
             return 4
-        elif glasgow in xrange(6,9):
+        elif glasgow in range(6,9):
             return 3
-        elif glasgow in xrange(10,13):
+        elif glasgow in range(10,13):
             return 2
-        elif glasgow in xrange(13,15):
+        elif glasgow in range(13,15):
             return 1
         else:
             return 0
